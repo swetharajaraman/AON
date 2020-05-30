@@ -8,8 +8,8 @@ import dataset_util
 
 
 flags = tf.app.flags
-flags.DEFINE_string('output_path', '/share/zhui/mnt/train.tfrecord', 'tfrecord filename')
-flags.DEFINE_string('tags_file_path', '/share/zhui/mnt/ramdisk/max/imlist_filted.txt', 'tags file file')
+flags.DEFINE_string('output_path', 'C://Users/sweth/Documents/SCU/ML/Project/AON/data-gen/train.tfrecord', 'tfrecord filename')
+flags.DEFINE_string('tags_file_path', 'C://Users/sweth/Documents/SCU/ML/Project/AON/data-gen/imlist_filted.txt', 'tags file file')
 FLAGS = flags.FLAGS
 
 
@@ -21,6 +21,7 @@ def main(unused_argv):
         for line in fo:
             image_path = line.strip()
             filename = '/'.join(line.strip().split('/')[-2:])
+            print(filename)
             groundtruth_text = line.split('_')[1]
 
             try:

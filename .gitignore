@@ -6,3 +6,4 @@ backup/*
 back/*
 model/*
 !model/README.md
+.idea/*

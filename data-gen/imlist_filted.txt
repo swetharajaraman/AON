@@ -1,0 +1,4 @@
+C:\Users\sweth\Documents\SCU\ML\Project\AON-master\demo\demo_rot0.jpg
+C:\Users\sweth\Documents\SCU\ML\Project\AON-master\demo\demo_rot90.jpg
+C:\Users\sweth\Documents\SCU\ML\Project\AON-master\demo\demo_rot180.jpg
+C:\Users\sweth\Documents\SCU\ML\Project\AON-master\demo\demo_rot270.jpg
