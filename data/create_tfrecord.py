@@ -8,8 +8,8 @@ import dataset_util
 
 
 flags = tf.app.flags
-flags.DEFINE_string('output_path', 'C://Users/sweth/Documents/SCU/ML/Project/AON/data-gen/train.tfrecord', 'tfrecord filename')
-flags.DEFINE_string('tags_file_path', 'C://Users/sweth/Documents/SCU/ML/Project/AON/data-gen/imlist_filted.txt', 'tags file file')
+flags.DEFINE_string('output_path', 'AON/data-gen/train.tfrecord', 'tfrecord filename')
+flags.DEFINE_string('tags_file_path', 'AON/data-gen/imlist_filted.txt', 'tags file file')
 FLAGS = flags.FLAGS
 
 
