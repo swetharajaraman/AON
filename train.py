@@ -7,7 +7,7 @@ import numpy as np
 flags = tf.app.flags
 flags.DEFINE_string('exp_dir', 'exp_log', 'experiment model save directory')
 flags.DEFINE_integer('batch_size', 32, 'define train batch size')
-flags.DEFINE_integer('max_steps', 2000, 'step nums for training')
+flags.DEFINE_integer('max_steps', 2000000, 'step nums for training')
 flags.DEFINE_boolean('restore', True, 'restore model parameter from checkpoint file')
 flags.DEFINE_string('tfrecord_file_path', 'AON/data-gen/train.tfrecord', 'tfrecord file path')
 flags.DEFINE_boolean('single_seq', False, 'Use FG or not')
